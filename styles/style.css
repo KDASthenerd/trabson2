@@ -1,0 +1,26 @@
+.secao:not(#div_secao1),
+.subSecao {
+  display: none;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-success {
+  --bs-btn-bg: #03b63f;
+  --bs-btn-border-color: #03b63f;
+  --bs-btn-hover-bg: #00a331;
+  --bs-btn-hover-border-color: #00a331;
+}
+
+body {
+  margin: 20px;
+}

@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Trabson</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div
+      class="btn-group"
+      role="group"
+      aria-label="Basic example"
+      id="botoesPrincipal"
+    >
+      <button
+        onclick="showSecao(this, 2)"
+        type="button"
+        class="btn btn-secondary bt-ma"
+      >
+        XP (eXtreme Programming)
+      </button>
+      <button
+        onclick="showSecao(this, 3)"
+        type="button"
+        class="btn btn-secondary bt-ma"
+      >
+        FDD (Feature Driven Development)
+      </button>
+      <button
+        onclick="showSecao(this, 4)"
+        type="button"
+        class="btn btn-secondary bt-ma"
+      >
+        Kanban
+      </button>
+      <button
+        onclick="showSecao(this, 5)"
+        type="button"
+        class="btn btn-secondary bt-ma"
+      >
+        Crystal
+      </button>
+      <button
+        onclick="showSecao(this, 6)"
+        type="button"
+        class="btn btn-secondary bt-ma"
+      >
+        MSF (Microsoft Solutions Framework)
+      </button>
+      <button
+        onclick="showSecao(this, 7)"
+        type="button"
+        class="btn btn-info bt-info"
+      >
+        Bibliografia
+      </button>
+      <button
+        onclick="showSecao(this, 1)"
+        type="button"
+        class="btn btn-success bt-info"
+      >
+        Informações
+      </button>
+    </div>
+
+    <br /><br />
+
+    <div class="secao" id="div_secao1">
+      <h1>Metodologias Ageis de Desenvolvimento</h1>
+
+      <br /><br />
+
+      <h2>Participantes</h2>
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>RA</th>
+        </tr>
+        <tr>
+          <td>Kenji Sousa</td>
+          <td>00255114</td>
+        </tr>
+        <tr>
+          <td>Rafael Miranda</td>
+          <td>00252248</td>
+        </tr>
+        <tr>
+          <td>Willian Fedel</td>
+          <td>00249931</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="secao" id="div_secao2">
+      <h1>XP (eXtreme Programming)</h1>
+
+      <br /><br />
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button
+          onclick="showSubSecao(this, 2, 1)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Introdução
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 2)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Planejamento
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 3)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Iterações
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 4)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Dev e Testes
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 5)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Feedback
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 6)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Integração
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 7)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Práticas Essenciais
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 8)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Pair Programming
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 9)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Testes Automatizados
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 10)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Design Simples
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 11)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Refatoração
+        </button>
+        <button
+          onclick="showSubSecao(this, 2, 12)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Reuniões Diárias
+        </button>
+      </div>
+
+      <br /><br />
+
+      <div class="subSecao" id="div_secao2_1">
+        <h2>Fases da Metodologia Ágil XP para um Desenvolvimento Eficiente</h2>
+
+        <p>
+          A metodologia ágil XP é amplamente utilizada para o desenvolvimento de
+          software de maneira eficiente e eficaz. Ela é baseada em princípios e
+          valores que visam promover a colaboração, a comunicação e a entrega
+          contínua de valor ao cliente. Neste artigo, vamos explorar as
+          diferentes fases da metodologia ágil XP e como elas contribuem para um
+          desenvolvimento eficiente.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_2">
+        <h2>Planejamento do Projeto</h2>
+
+        <p>
+          O planejamento do projeto é a primeira fase da metodologia ágil XP.
+          Nesta etapa, a equipe de desenvolvimento, juntamente com os
+          stakeholders, define o escopo do projeto e identifica as
+          funcionalidades que serão entregues em cada iteração. Além disso, é
+          definido um cronograma detalhado, com as datas de entrega de cada
+          funcionalidade. O objetivo desta fase é garantir que todas as partes
+          envolvidas estejam alinhadas quanto aos objetivos do projeto.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_3">
+        <h2>Iterações</h2>
+
+        <p>
+          As iterações são o coração da metodologia ágil XP. Elas consistem em
+          ciclos curtos de desenvolvimento, onde as funcionalidades definidas no
+          planejamento do projeto são implementadas, testadas e entregues ao
+          cliente. Cada iteração possui uma duração fixa, geralmente de duas a
+          quatro semanas, e resulta em uma versão funcional do software. O ciclo
+          de iterações se repete até que todas as funcionalidades tenham sido
+          entregues.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_4">
+        <h2>Desenvolvimento e Testes de Software</h2>
+
+        <p>
+          Durante as iterações, a equipe de desenvolvimento se concentra na
+          implementação das funcionalidades definidas no planejamento do
+          projeto. O desenvolvimento é feito de forma incremental, ou seja, as
+          funcionalidades são desenvolvidas passo a passo, com testes sendo
+          realizados a cada etapa. Isso permite identificar bugs e problemas de
+          integração de forma antecipada, reduzindo o risco de retrabalho no
+          futuro.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_5">
+        <h2>Feedback Contínuo</h2>
+
+        <p>
+          Um dos princípios fundamentais da metodologia ágil XP é o feedback
+          contínuo. Durante todo o processo de desenvolvimento, a equipe se
+          mantém em constante comunicação com o cliente e os stakeholders. Isso
+          permite que eles forneçam feedback sobre as funcionalidades
+          desenvolvidas, apontando melhorias e ajustes necessários. O feedback
+          contínuo ajuda a garantir que a solução final atenda plenamente às
+          expectativas e necessidades do cliente.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_6">
+        <h2>Integração Contínua</h2>
+
+        <p>
+          A integração contínua é outro aspecto fundamental da metodologia ágil
+          XP. Ela envolve a constante integração do trabalho realizado pela
+          equipe de desenvolvimento no repositório central do projeto. Isso
+          permite detectar e corrigir problemas de integração rapidamente,
+          evitando conflitos e retrabalhos. A integração contínua também
+          facilita a detecção de bugs e erros, garantindo a qualidade do
+          software desenvolvido.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_7">
+        <h2>
+          Práticas Essenciais na Metodologia Ágil XP para o Sucesso do Projeto
+        </h2>
+
+        <p>
+          Existem várias práticas essenciais na metodologia ágil XP que
+          contribuem para o sucesso do projeto. Essas práticas são aplicadas ao
+          longo de todas as fases do desenvolvimento e ajudam a garantir um
+          resultado final de qualidade. Neste artigo, vamos explorar algumas das
+          práticas mais importantes na metodologia ágil XP.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_8">
+        <h2>Programação em Duplas</h2>
+
+        <p>
+          A prática de programação em duplas consiste em duas pessoas
+          trabalhando juntas em uma única estação de trabalho. Essa prática
+          promove a colaboração, o compartilhamento de conhecimento e a revisão
+          de código em tempo real. Além disso, ajuda a reduzir erros e a manter
+          um alto nível de qualidade no código desenvolvido.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_9">
+        <h2>Testes Automatizados</h2>
+
+        <p>
+          Os testes automatizados são uma prática essencial na metodologia ágil
+          XP. Eles envolvem a criação de testes automatizados para verificar se
+          as funcionalidades desenvolvidas estão funcionando conforme o
+          esperado. Os testes automatizados garantem a qualidade do software ao
+          longo de todo o processo de desenvolvimento e permitem detectar e
+          corrigir bugs de forma rápida e eficiente.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_10">
+        <h2>Design Simples</h2>
+
+        <p>
+          A prática de design simples na metodologia ágil XP envolve a criação
+          de soluções simples e enxutas. Ela enfatiza a minimização da
+          complexidade e a criação de um sistema que seja fácil de entender,
+          modificar e manter. O design simples promove a agilidade e a rapidez
+          no desenvolvimento, reduzindo a chance de erros e simplificando a
+          implementação de novas funcionalidades.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_11">
+        <h2>Refatoração</h2>
+
+        <p>
+          A refatoração é uma prática que consiste em melhorar continuamente a
+          estrutura do código, sem alterar a sua funcionalidade. Ela envolve a
+          identificação de trechos de código duplicados, complexos ou mal
+          organizados, e a sua reescrita de forma mais clara e eficiente. A
+          refatoração ajuda a reduzir o acúmulo de dívidas técnicas, tornando o
+          código mais legível, sustentável e fácil de modificar.
+        </p>
+      </div>
+
+      <div class="subSecao" id="div_secao2_12">
+        <h2>Reuniões Diárias</h2>
+
+        <p>
+          As reuniões diárias são uma prática de comunicação fundamental na
+          metodologia ágil XP. Elas envolvem a realização de encontros rápidos,
+          de aproximadamente 15 minutos, onde a equipe compartilha informações
+          sobre o progresso do projeto e os desafios enfrentados. Essas reuniões
+          ajudam a manter todos os membros da equipe alinhados e engajados, além
+          de permitir a identificação e a resolução de problemas de forma ágil.
+        </p>
+      </div>
+    </div>
+
+    <div class="secao" id="div_secao3">
+      <h1>FDD (Feature Driven Development)</h1>
+
+      <br /><br />
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button
+          onclick="showSubSecao(this, 3, 1)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Introdução
+        </button>
+        <button
+          onclick="showSubSecao(this, 3, 2)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Dev modelo geral
+        </button>
+        <button
+          onclick="showSubSecao(this, 3, 3)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Gerar uma lista de funcionalidades
+        </button>
+        <button
+          onclick="showSubSecao(this, 3, 4)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Planejar por funcionalidade
+        </button>
+        <button
+          onclick="showSubSecao(this, 3, 5)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Modelar por funcionalidade
+        </button>
+        <button
+          onclick="showSubSecao(this, 3, 6)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Construir por funcionalidade
+        </button>
+      </div>
+
+      <br /><br />
+
+      <div class="subSecao" id="div_secao3_1">
+        <h2>Introdução</h2>
+
+        <p>
+          Feature Driven Development é uma metodologia ágil para desenvolvimento
+          de softwares orientada pela modelagem. Ela se baseia no estudo de
+          problemas e no entendimento dos processos interativos para propor
+          soluções. Seu principal objetivo é entregar ao cliente um
+          software-funcional em tempo hábil. O FDD se preocupa em promover
+          aplicabilidade. Em outras palavras, é uma função com valor para o
+          cliente, que pode ser desenvolvida em duas ou menos semanas. Para
+          isso, o FDD trabalha os projetos a partir de 5 processos:
+        </p>
+        <ul>
+          <li>desenvolvimento de modelo geral</li>
+          <li>criação de lista de funcionalidades</li>
+          <li>planejamento por funcionalidade</li>
+          <li>modelagem por funcionalidade</li>
+          <li>construção por funcionalidade</li>
+        </ul>
+      </div>
+      <div class="subSecao" id="div_secao3_2">
+        <h2>Desenvolver um modelo geral</h2>
+
+        <p>
+          O primeiro momento é de conhecer o sistema. Isso possibilita sua
+          análise, bem como a avaliação do contexto no qual ele se insere. A
+          partir desse entendimento, o profissional estuda os domínios do
+          sistema e desenvolve um modelo geral com base nesses estudos. Então,
+          pequenas equipes são designadas para criar uma modelagem superficial
+          para cada área de domínio do sistema. Cada modelo criado é revisado
+          por outros membros do projeto, que não fazem parte da equipe inicial
+          de criação, a fim de escolher imparcialmente o melhor modelo de
+          domínio para cada área. Assim, ao final do processo, os modelos
+          escolhidos são unificados no modelo geral do domínio do sistema e o
+          trabalho é iniciado.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao3_3">
+        <h2>Gerar uma lista de funcionalidades</h2>
+
+        <p>
+          Nesta fase, cria-se uma lista de funcionalidades do sistema,
+          descrevendo e identificando a área de domínio de cada uma delas. As
+          funcionalidades são importantes para o processo, porque cada uma é uma
+          pequena tarefa que precisa ser implementada ao projeto, com o objetivo
+          de gerar valor ao cliente. Os itens de funcionalidade não devem levar
+          mais de duas semanas para serem concluídos, e são ordenados na lista
+          por ordem de prioridade no desenvolvimento. Por exemplo: uma lista de
+          funcionalidades pode conter os seguintes itens: “validar a senha do
+          usuário”, “liberar o login” e “gerar relatório de vendas”. Caso a
+          equipe não consiga criar a lista de funcionalidades, o processo de
+          desenvolvimento sofre atraso, pois a primeira etapa de criação de
+          modelo geral precisa ser refeita. Caso contrário, as fases seguintes
+          do projeto sofrerão as consequências de erros e mais atrasos.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao3_4">
+        <h2>Planejar por funcionalidade</h2>
+
+        <p>
+          Após a lista de funcionalidades, é hora de planejar o desenvolvimento
+          de cada uma delas. Para cada funcionalidade, são designados
+          programadores-chefe, responsáveis por algumas classes ou códigos. A
+          partir disso, formam-se as equipes de planejamento. Dentro desses
+          times, cada integrante é encarregado de uma parte do projeto
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao3_5">
+        <h2>Modelar por funcionalidade</h2>
+
+        <p>
+          Assim como na primeira fase, nessa etapa, cria-se uma modelagem com as
+          funcionalidades a serem desenvolvidas. A diferença dessa modelagem é
+          que o programador-chefe a cria de acordo com uma funcionalidade
+          específica e a divide em classes, métodos e atributos. Quando
+          finalizada, a funcionalidade passa por testagens da equipe
+          desenvolvedora.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao3_6">
+        <h2>Construir por funcionalidade</h2>
+
+        <p>
+          Após a modelagem passar por diversos testes, o código começa a ser
+          implementado no sistema. Dessa forma, as funcionalidades são
+          incorporadas e já podem ser colocadas em prática. Efetivado o código,
+          ele é escrito e essa funcionalidade tem sua conclusão. Fazem parte
+          dessa fase:
+        </p>
+        <ul>
+          <li>implementação das regras de negócio das classes.</li>
+          <li>inspeção do código.</li>
+          <li>condução dos testes unitários.</li>
+          <li>release (lançamento) da funcionalidade.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="secao" id="div_secao4">
+      <h1>Kanban</h1>
+
+      <br /><br />
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button
+          onclick="showSubSecao(this, 4, 1)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Etapas
+        </button>
+        <button
+          onclick="showSubSecao(this, 4, 2)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Visualizar o fluxo
+        </button>
+        <button
+          onclick="showSubSecao(this, 4, 3)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Limitar o WIP
+        </button>
+        <button
+          onclick="showSubSecao(this, 4, 4)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Gerenciar o fluxo
+        </button>
+        <button
+          onclick="showSubSecao(this, 4, 5)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Tornar as políticas explícitas
+        </button>
+        <button
+          onclick="showSubSecao(this, 4, 6)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Quais são as etapas no quadro Kanban?
+        </button>
+      </div>
+
+      <br /><br />
+
+      <div class="subSecao" id="div_secao4_1">
+        <h2>Quais são as etapas do Kanban?</h2>
+        <p>
+          De modo geral, as etapas podem ser divididas em 6 práticas diferentes,
+          que quando aplicadas dentro de uma empresa tendem a aumentar não
+          somente a eficiência da produção, mas também do projeto e da empresa
+          como um todo.
+        </p>
+        <img src="img/1.png" />
+      </div>
+      <div class="subSecao" id="div_secao4_2">
+        <h2>Visualizar o fluxo</h2>
+        <p>
+          A primeira etapa essencial na hora de implementar o Kanban na sua
+          empresa é visualizar todo o fluxo de produção, ou seja, deixar visível
+          tudo aquilo que não se pode ver. Isso inclui fluxo de trabalho, riscos
+          de negócios, etapas, deadlines, filas, estoque e capacidade da equipe.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao4_3">
+        <h2>Limitar o WIP</h2>
+        <p>
+          Work in Progress, em tradução livre trabalho em progresso, é o número
+          de tarefas que podem ser feitas ao mesmo tempo sem comprometer a
+          qualidade da produção. É a partir de um WIP que você estabelece um
+          número de itens que podem se movimentar pelo quadro Kanban e integrar
+          o sistema puxado.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao4_4">
+        <h2>Gerenciar o fluxo</h2>
+        <p>
+          A próxima etapa é conseguir gerenciar o fluxo, o que quer dizer que
+          você deve usar métricas e métodos que lhe auxiliem a verificar se a
+          produção está fluindo e como ela está fluindo. Ou seja, se a qualidade
+          se mantém, se a equipe é ágil, se existem gargalos etc.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao4_5">
+        <h2>Tornar as políticas explícitas</h2>
+        <p>
+          Deixar as políticas explícitas quer dizer eliminar todas as barreiras
+          que estão invisíveis, assim como a forma de conduzir o trabalho.
+          Quando deixamos explícito a forma como as coisas acontecem, ou então
+          porque elas acontecem dessa forma, damos a oportunidade de discutir
+          com base em fatos de maneira racional e objetiva.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao4_6">
+        <h2>Quais são as etapas no quadro Kanban?</h2>
+        <p>
+          Além das etapas práticas que devem ser implementadas na empresa com a
+          equipe e funcionários, também temos as etapas do quadro Kanban, que
+          nada mais são do que nichos que dividem o estágio das tarefas dentro
+          do fluxo de trabalho.
+        </p>
+        <p>
+          De modo geral, o Kanban possui 3 etapas diferentes, sendo elas to do,
+          doing e done.
+        </p>
+        <ol>
+          <li>
+            A primeira etapa, to do, em tradução livre “a fazer”, são as tarefas
+            que devem ser feitas na data determinada em seu cartão. Quando novas
+            tarefas chegam para o quadro, vão direto para a coluna to do, e
+            devem aguardar os outros cartões do quadro serem concluídos para ser
+            puxada para a coluna doing, a menos que essa seja uma tarefa marcada
+            em um cartão de urgência.
+          </li>
+
+          <li>
+            A segunda coluna, doing, em tradução livre “sendo feita”, é a coluna
+            das tarefas que estão em produção de acordo com o WIP estabelecido
+            pela empresa. Isso significa que se você estabeleceu um WIP de 10
+            tarefas, a coluna doing nunca terá mais do que 10 cartões ao mesmo
+            tempo.
+          </li>
+
+          <li>
+            A terceira etapa você pode fazer uma relação de quantas tarefas
+            estão na coluna to do e quantas estão na coluna doing. Caso note um
+            acúmulo de tarefas na primeira coluna, pode significar que seu WIP
+            está muito baixo, e é necessário encontrar uma estratégia para
+            aumentá-lo sem perder a qualidade de produção.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="secao" id="div_secao5">
+      <h1>Crystal</h1>
+
+      <br /><br />
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button
+          onclick="showSubSecao(this, 5, 1)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Sobre
+        </button>
+        <button
+          onclick="showSubSecao(this, 5, 2)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Parâmetros conforme o tamanho
+        </button>
+        <button
+          onclick="showSubSecao(this, 5, 3)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Características da metodologia Crystal
+        </button>
+        <button
+          onclick="showSubSecao(this, 5, 4)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Ciclo da metodologia Crystal
+        </button>
+      </div>
+
+      <br /><br />
+
+      <div class="subSecao" id="div_secao5_1">
+        <h2>Crystal</h2>
+
+        <p>
+          Crystal é uma família de metodologias de desenvolvimento de software
+          e, como os cristais, possui diferentes cores e rigidez, referindo-se
+          ao tamanho e ao nível crítico do projeto.
+        </p>
+        <p>
+          Os métodos Crystal são focados nos talentos e nas habilidades das
+          pessoas, permitindo que o processo de desenvolvimento seja moldado
+          conforme as características específicas da equipe, mesclando a sua
+          cultura de trabalho com a proposta de desenvolvimento ágil.
+        </p>
+        <img src="img/2.png" />
+      </div>
+      <div class="subSecao" id="div_secao5_2">
+        <h2>Parâmetros conforme o tamanho</h2>
+
+        <p>
+          Cada método Crystal é caracterizado por uma cor, de acordo com o
+          número de envolvidos
+        </p>
+        <ul>
+          <li>
+            Crystal Clear é uma metodologia leve, para equipes de uma a oito
+            pessoas, podendo chegar até doze em casos especiais
+          </li>
+          <li>Yellow, para equipes por volta de dez a vinte membros;</li>
+          <li>
+            Orange e a variante e Orange Web são apropriados para equipes de
+            vinte a cinquenta participantes;
+          </li>
+          <li>
+            Red para equipes de cinquenta a cem membros. Cada um dos métodos com
+            graus de gerenciamento e de comunicação ajustados de acordo com o
+            tamanho da equipe.
+          </li>
+        </ul>
+      </div>
+      <div class="subSecao" id="div_secao5_3">
+        <h2>Características da metodologia Crystal</h2>
+
+        <p>
+          O ciclo de vida desta família de metodologia é baseado nas seguintes
+          práticas:
+        </p>
+        <ul>
+          <li>
+            <b>Entrega frequente: </b>os proprietários de projetos-cliente podem
+            esperar resultados da equipe a cada dois meses. Em maior ou mais
+            projetos críticos, as prestações não podem entrar em produção, mas
+            os interessados irão ver as versões intermediárias e ser capaz de
+            fornecer feedback.
+          </li>
+          <li>
+            <b>Feedback contínuo: </b>Toda equipe do projeto se reúne
+            regularmente para discutir as atividades do projeto. A equipe também
+            se reúne regularmente com as partes interessadas para garantir que o
+            projeto está caminhando na direção esperada e comunicar quaisquer
+            novas descobertas que podem afetar o projeto.
+          </li>
+          <li>
+            <b>Comunicação Constante: </b>Pequenos projetos esperam que toda a
+            equipe tenha que estar na mesma sala, enquanto projetos maiores são
+            esperados para ser co-localizados na mesma facilidade. Todos os
+            projetos esperam ter acesso frequente as pessoas que definem os
+            requisitos.
+          </li>
+          <li>
+            <b>Segurança: </b>Crystal é algo único em seu foco no aspecto da
+            segurança de desenvolvimento de software. Isto vem em duas formas,
+            sendo que uma delas é a zona segura para que os membros da equipe
+            devam ter para serem eficazes e para comunicar a verdade durante o
+            projeto, sem medo de represálias, o que é verdadeiro na maioria das
+            metodologias ágeis. A outra forma de segurança, que só o Crystal
+            reconhece, é que a finalidade de cada projeto de software não é o
+            mesmo e que alguns projetos de software afetam a segurança de seus
+            usuários finais. Por exemplo, um sistema de ônibus espacial é muito
+            mais crítica do que uma batedeira.
+          </li>
+          <li>
+            <b>Foco: </b>Os membros da equipe devem conhecer dois ou três itens
+            prioritários e cada membro deve trabalhar com tempo para concluí-las
+            sem interrupção
+          </li>
+          <li>
+            <b>Acesso para Usuários: </b>Como a maioria dos métodos ágeis,
+            Crystal espera que a equipe do projeto tenha acesso a um ou mais
+            usuários do sistema a ser construído.
+          </li>
+          <li>
+            <b>Testes automatizados e Integração: </b>Crystal tem várias
+            capacidades para a verificação da funcionalidade do projeto.
+            Controles devem ser postos em prática para apoiar a versão, testes
+            automatizados, e frequente integração dos componentes do sistema.
+          </li>
+        </ul>
+      </div>
+      <div class="subSecao" id="div_secao5_4">
+        <h2>Ciclo da metodologia Crystal</h2>
+
+        <p>
+          Independentemente de qual implementação Crystal você escolhe, você
+          encontrará sete princípios-chave em cada um:
+        </p>
+        <ul>
+          <li>
+            <b>Staging</b>: Planejamento do próximo incremento do sistema. A
+            equipe seleciona os requisitos que serão implementados na iteração e
+            o prazo para sua entrega;
+          </li>
+          <li>
+            <b>Edição e revisão</b>: Construção, demonstração e revisão dos
+            objetivos do incremento;
+          </li>
+          <li>
+            <b>Monitoramento</b>: O processo é monitorado com relação ao
+            progresso e estabilidade da equipe. É medido em marcos e em estágios
+            de estabilidade;
+          </li>
+          <li>
+            <b>Paralelismo e fluxo</b>: Em Crystal Orange as diferentes equipes
+            podem operar com máximo paralelismo. Isto é permitido através do
+            monitoramento da estabilidade e da sincronização entre as equipes;
+          </li>
+          <li>
+            <b>Inspeções de usuários</b>: são sugeridas duas a três inspeções
+            feitas por usuários a cada incremento;
+          </li>
+          <li>
+            <b>Workshops refletivos</b>: são reuniões que ocorrem antes e depois
+            de cada interação, com objetivo de analisar o progresso do projeto;
+          </li>
+          <li>
+            <b>Local matters</b>: são os procedimentos a serem aplicados, que
+            variam de acordo com o tipo de projeto
+          </li>
+          <li>
+            <b>Work Products (Produtos de Trabalho)</b>: sequência de
+            lançamento, modelos de objetos comuns, manual do usuário, casos de
+            teste e migração de código. Especificamente para o Clear, são casos
+            de uso e descrição de funcionalidade e, especificamente para o
+            Orange, são documentos de requisitos;
+          </li>
+          <li>
+            <b>Standards (padrões)</b>: padrões de notação, convenções de
+            produto, formatação e qualidade usadas no projeto;
+          </li>
+          <li>
+            <b>Tools</b>: Ferramentas mínimas utilizadas. Para Crystal Clear,
+            são compiladores, gerenciadores de versão e configuração,
+            ferramentas de versão, programação, teste, comunicação,
+            monitoramento de projeto, desenho e medição de desempenho.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="secao" id="div_secao6">
+      <h1>MSF (Microsoft Solutions Framework)</h1>
+
+      <br /><br />
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button
+          onclick="showSubSecao(this, 6, 1)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Introdução
+        </button>
+        <button
+          onclick="showSubSecao(this, 6, 2)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Modelo de Equipe
+        </button>
+        <button
+          onclick="showSubSecao(this, 6, 3)"
+          type="button"
+          class="btn btn-secondary"
+        >
+          Modelo de Processos
+        </button>
+      </div>
+
+      <br /><br />
+
+      <div class="subSecao" id="div_secao6_1">
+        <h2>Introdução</h2>
+        <p>
+          O Microsoft Solutions Framework surgiu a partir da análise de como a
+          Microsoft desenvolve seus produtos. Basicamente o MSF é uma compilação
+          das boas práticas utilizadas pela empresa, que foi criado tanto para
+          uso interno como para uso de seus clientes. Porém, apesar de ter sido
+          criado pela Microsoft, o MSF aborda basicamente o processo de
+          construção de soluções, não se prendendo ao uso de produtos desta
+          empresa. A Microsoft não classifica o MSF como uma metodologia, mas
+          sim como uma disciplina. O que isso quer dizer? Basicamente que o MSF
+          serve como um grande guia e uma coleção de boas práticas. Porém, o MSF
+          não se aprofunda em detalhes.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao6_2">
+        <h2>Modelo de Equipe</h2>
+        <p>
+          O modelo de equipes é composto de seis papéis e se baseia no conceito
+          de “team of peers”, ou seja, todos estes papéis se comunicam entre si
+          e não existe uma hierarquia direta entre eles.
+        </p>
+        <table>
+          <tr>
+            <th>Papel</th>
+            <th>Responsabilidade</th>
+            <th>Objetivo</th>
+          </tr>
+          <tr>
+            <td>Product Management</td>
+            <td>Representar o cliente para a equipe e vice-versa</td>
+            <td>Satisvação do cliente</td>
+          </tr>
+          <tr>
+            <td>Program Management</td>
+            <td>
+              Gerenciar o andamento do projeto e atuar como um facilitador
+            </td>
+            <td>Manter prazo e custo dentro do estimado</td>
+          </tr>
+          <tr>
+            <td>Development</td>
+            <td>Projeto e construção da solução</td>
+            <td>Atender à especificação do projeto</td>
+          </tr>
+          <tr>
+            <td>Testing</td>
+            <td>Testar a solução</td>
+            <td>Abordar os problemas antes da entrega do produto</td>
+          </tr>
+          <tr>
+            <td>User Education</td>
+            <td>Identificar as necessidades e treinar o usuário</td>
+            <td>Otimizar a performance do usuário</td>
+          </tr>
+          <tr>
+            <td>Logistics Management</td>
+            <td>Planejar e executar a logóstica necessária</td>
+            <td>Garantir uma boa implantação e manutenção</td>
+          </tr>
+        </table>
+        <p>
+          A composição da equipe vai depender do tipo de projeto, custo ou
+          outros fatores. Porém, é importante que todos os papéis sejam
+          representados.
+        </p>
+        <p>
+          É importante realçar que, apesar de serem seis papéis, não é
+          necessário seis ou mais pessoas. Na verdade, um papel pode ser
+          desempenhado por várias pessoas ou uma pessoa pode acumular mais de um
+          papel. Algumas combinações não são recomendadas, tais como Program
+          Manager e Product Manager, pois em geral são conflitantes.
+        </p>
+        <p>
+          Fica claro que a boa comunicação permite a rápida tomada de decisões
+          sobre o projeto, levando em consideração todos os objetivos do mesmo,
+          já que cada um deles tem um responsável direto.
+        </p>
+        <p>
+          O Program Manager, por sua vez, avaliará se este tempo adicional é
+          tolerável com base nos limites de verba e prazo. Caso contrário, a
+          funcionalidade pode ser postergada para outra versão, ou pode-se
+          remover alguma outra funcionalidade não prioritária.
+        </p>
+        <p>
+          Por exemplo, ao longo do projeto o Product Manager pode identificar
+          uma funcionalidade de grande importância para o cliente, mas que não
+          foi especificada no início. Conversando com o Developer e Tester, foi
+          identificado que serão gastos mais 5 dias para implementação e testes
+          desta funcionalidade. User Education e Logistics não relataram impacto
+          significativo.
+        </p>
+        <p>
+          O princípio básico deste modelo é que cada um desses papéis aborda um
+          objetivo importante para o projeto. Por isso todos os papéis devem
+          estar representados e poder comunicar-se entre si, além de participar
+          das decisões de projeto.
+        </p>
+      </div>
+      <div class="subSecao" id="div_secao6_3">
+        <h2>Modelo de Processos</h2>
+        <p>
+          O modelo de processos do MSF prevê 4 fases: Envisioning, Planning,
+          Developing e Stabilizing. Cada fase descreve um conjunto de
+          subprodutos que devem ser entregues, assim como marcos que devem ser
+          atingidos e os respectivos critérios de aceitação.
+        </p>
+        <img src="img/3.png" />
+        <ol>
+          <li>
+            A primeira fase, Envisioning, tem como produto principal um
+            documento de visão e escopo. Este documento formaliza de forma
+            suscinta a visão do que será o projeto. O marco de término desta
+            fase é a aprovação da visão por todas as partes envolvidas. Neste
+            ponto todos têm um entendimento geral do projeto e dos recursos
+            necessários. Com base nesta visão é tomada a decisão sobre a
+            continuidade ou não do projeto.
+          </li>
+          <li>
+            <p>
+              A fase seguinte, Planning, tem como produto o plano do projeto,
+              que é composto de subprodutos, dos quais destacamos a
+              especificação funcional e o cronograma da etapa de
+              desenvolvimento.
+            </p>
+            <p>
+              O marco de término é a aprovação do plano de projeto, composto
+              pelos diversos subprodutos. Neste momento já se tem uma visão
+              detalhada do projeto, bem como maior precisão nos prazos e
+              recursos necessários. Mais do que isso, toda a execução do projeto
+              estará devidamente planejada.
+            </p>
+          </li>
+          <li>
+            Em seguida, vem a fase de Developing, que é quando construímos a
+            solução propriamente dita. Esta fase gerará diversas versões
+            intermediárias, que servirão como pontos de checagem e testes. O
+            critério de término desta fase é que o escopo esteja completo, ou
+            seja, todas as funcionalidades planejadas estejam implementadas.
+          </li>
+          <li>
+            A quarta e última fase é a Stabilizing. Ela é dedicada a testes
+            sistêmicos e acertos de bugs e de funcionalidades não adequadas a
+            necessidade do usuário. Novamente são geradas várias versões (alfas
+            e betas). Ela termina quando existe um consenso sobre a qualidade
+            final do produto.
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="secao" id="div_secao7">
+      <h1>Bibliografia</h1>
+
+      <a target="_blank" href="https://awari.com.br/metodologia-agil-xp-fases-e-praticas-para-um-desenvolvimento-de-sucesso/">https://awari.com.br/metodologia-agil-xp-fases-e-praticas-para-um-desenvolvimento-de-sucesso/</a>
+      <br>
+      <a target="_blank" href="https://blog.xpeducacao.com.br/fdd-feature-driven-development/">https://blog.xpeducacao.com.br/fdd-feature-driven-development/</a>
+      <br>
+      <a target="_blank" href="https://www.primecursos.com.br/blog/etapas-do-kanban/">https://www.primecursos.com.br/blog/etapas-do-kanban/</a>
+      <br>
+      <a target="_blank" href="https://leandromtr.com/metodologia-agil-crystal/">https://leandromtr.com/metodologia-agil-crystal/</a>
+      <br>
+      <a target="_blank" href="http://www.linhadecodigo.com.br/artigo/78/conheca-o-microsoft-solutions-framework-msf.aspx#:~:text=O%20modelo%20de%20processos%20do,aceitação%2C%20veja%20a%20figura%202.">http://www.linhadecodigo.com.br/artigo/78/conheca-o-microsoft-solutions-framework-msf.aspx#:~:text=O%20modelo%20de%20processos%20do,aceitação%2C%20veja%20a%20figura%202.</a>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
